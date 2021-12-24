@@ -13,9 +13,9 @@ touch .env
 Update the frontend .env file with the required environment variables:
 
 ```bash
-REACT_APP_AUTH0_DOMAIN=
-REACT_APP_AUTH0_CLIENT_ID=
-REACT_APP_AUTH0_AUDIENCE=
+REACT_APP_AUTH0_DOMAIN=<your auth0 domain>
+REACT_APP_AUTH0_CLIENT_ID=<your auth0 client id>
+REACT_APP_AUTH0_AUDIENCE=<your auth0 audience>
 REACT_APP_SERVER_URL=http://localhost:6060
 ```
 

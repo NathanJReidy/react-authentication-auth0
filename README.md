@@ -13,8 +13,8 @@ Update the frontend .env file with the required environment variables:
 
 ```bash
 REACT_APP_AUTH0_DOMAIN=<your auth0 domain>
-REACT_APP_AUTH0_CLIENT_ID=
-REACT_APP_AUTH0_AUDIENCE=
+REACT_APP_AUTH0_CLIENT_ID=<your auth0 client id>
+REACT_APP_AUTH0_AUDIENCE=<your auth0 audience>
 REACT_APP_SERVER_URL=http://localhost:6060
 ```
 
@@ -48,8 +48,8 @@ Update the backend .env file with the required environment variables:
 ```bash
 SERVER_PORT=6060
 CLIENT_ORIGIN_URL=http://localhost:4040
-AUTH0_AUDIENCE=
-AUTH0_DOMAIN=
+AUTH0_AUDIENCE=<your auth0 audience>
+AUTH0_DOMAIN=<your auth0 domain>
 ```
 
 Install the backend project dependencies in the backend/ directory:

@@ -21,8 +21,8 @@ Populate `.env` as follows:
 ```bash
 SERVER_PORT=6060
 CLIENT_ORIGIN_URL=http://localhost:4040
-AUTH0_AUDIENCE=
-AUTH0_DOMAIN=
+AUTH0_AUDIENCE=<your auth0 audience>
+AUTH0_DOMAIN=<your auth0 domain>
 ```
 
 Get the values for `AUTH0_AUDIENCE` and `AUTH0_DOMAIN` from your Auth0 API in the Dashboard.
@@ -52,7 +52,7 @@ Now, **follow these steps to get the Auth0 Domain value**:
 - The Auth0 Domain is the substring between the protocol, `https://` and the path `/oauth/token`.
 
 - The Auth0 Domain follows this pattern: `tenant-name.region.auth0.com`.
- 
+
 - The `region` subdomain (`au`, `us`, or `eu`) is optional. Some Auth0 Domains don't have it.
 
 - **Click on the image above, please, if you have any doubt on how to get the Auth0 Domain value**.
